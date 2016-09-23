@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "build:watch": "webpack --watch --config webpack.config.js"
+    "build:watch": "webpack --watch --config webpack.config.js",
+    "test": "NODE_ENV=test mocha --require ignore-styles --require babel-register './src/**/*.spec.js'",
+    "test:watch": "npm run test -- -w"
   },
   "keywords": [],
   "author": "tomkp <tom@tomkp.com> (http://tomkp.com)",
@@ -21,7 +23,13 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.5.1",
     "css-loader": "^0.25.0",
+    "enzyme": "^2.4.1",
+    "ignore-styles": "^5.0.1",
+    "mocha": "^3.0.2",
     "postcss": "^5.2.0",
     "postcss-loader": "^0.13.0",
     "precss": "^1.4.0",
