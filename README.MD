@@ -1,24 +1,30 @@
 ## super-simple-react
 
 
-Install
-```
-npm i
-```
+Getting started with React
 
 
-Build
-```
-npm run build
-```
+Install 
+```npm i```
+
+Build 
+```npm run build```
+
+Build & Watch 
+```npm run build:watch```
+
+Test 
+```npm run test```
+
+Test & Watch 
+```npm run test:watch```
+
+Open ```index.html``` in your favourite browser
 
 
-Build & Watch
-```
-npm run build:watch
-```
+---
 
-### Built with
+
 
  * **react** - js ui library
  * **babel** - compiler
