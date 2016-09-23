@@ -1,25 +1,36 @@
-## super-simple-react
+# super-simple-react
 
 
-Getting started with React
+### getting started with React...
 
 
-Install 
+Install modules
+
 ```npm i```
 
-Build 
-```npm run build```
+Build application
 
-Build & Watch 
-```npm run build:watch```
-
-Test 
-```npm run test```
-
-Test & Watch 
-```npm run test:watch```
+```npm build```
 
 Open ```index.html``` in your favourite browser
+
+
+### extra shizzzle
+
+Run tests 
+
+```npm test```
+
+
+Automatically rebuild application when files change 
+
+```npm run build:watch```
+
+
+Automatically run tests when files change 
+
+```npm run test:watch```
+
 
 
 ---
